@@ -1,10 +1,10 @@
 #include <stdio.h>
-
+// This program prints numbers until an odd number is entered by the user.
 int main()
 {
 
     int n;
-   
+
     do
     {
         printf("Enter a number: ");
@@ -15,6 +15,6 @@ int main()
     } while (n % 2 == 0);
 
     printf("Thank you !!");
-    
+
     return 0;
 }
