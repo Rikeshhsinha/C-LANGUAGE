@@ -11,7 +11,7 @@ int main (){
 
     int marks;
 
-    printf("Enter your marks: ");
+    printf("Enter your marks(1-100): ");
     scanf("%d", &marks);
 
     if (marks < 30)
