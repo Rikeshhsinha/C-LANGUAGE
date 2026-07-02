@@ -1,16 +1,23 @@
 #include <stdio.h>
 
-//Add a program to print "Hello, World!" and "Goodbye, World!" using a function.
+// Add a program to print "Hello, World!" and "Goodbye, World!" using a function.
 
-void printhelloAndgoodbye(){
+void printhello()
+{
 
     printf("Hello, World!\n");
+}
+
+void printgoodbye()
+{
+
     printf("Goodbye, World!\n");
 }
 
 int main()
 {
-printhelloAndgoodbye();
-   
+    printhello();
+    printgoodbye();
+
     return 0;
 }
