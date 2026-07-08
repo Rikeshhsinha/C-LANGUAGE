@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <math.h>
-
+// Function to calculate and print the square of a number
 void printSquare(int n)
 {
     int square = pow(n, 2);
