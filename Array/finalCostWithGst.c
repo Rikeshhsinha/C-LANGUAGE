@@ -1,5 +1,5 @@
 #include <stdio.h>
-// Add three items in an array and print the total cost with GST in C language.
+// Add take input price of an item and print output of the total cost with GST in C language
 int main()
 {
 
