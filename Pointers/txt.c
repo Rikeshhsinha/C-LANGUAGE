@@ -17,3 +17,10 @@ int main() {
 
     return 0;
 }
+
+
+//   What is pointer to pointer ??
+//   A pointer that stores the address of another pointer variable.
+//   if age = 22 : stored in 2010
+//   then the ptr is : 2010 stored in 2013:     
+//   then the ptr to ptr is : 2013 stored in 2016:
